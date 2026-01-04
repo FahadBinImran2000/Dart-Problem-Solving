@@ -1,7 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_03/solution.dart';
+import 'package:dart_problem_solving/challenges/day_04/solution.dart';
 
 void main() {
-  List<int> numbers = [-2, 5, 0, 7, -1, 3];
-  int totalPositiveNumber = countPositiveNumber(numbers);
-  print("Total Positive Numbers in a List: $totalPositiveNumber");
+  List<int> numbers = [8, 3, 6, 1, 9];
+  int smallNumber = smallestNumber(numbers);
+  print("Smallest Number in a List: $smallNumber");
 }
