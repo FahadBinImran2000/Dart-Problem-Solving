@@ -1,7 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_08/solution.dart';
+import 'package:dart_problem_solving/challenges/day_09/solution.dart';
 
 void main() {
-  String input = "Flutter makes app development easy";
-  int totalWords = countWords(input);
-  print("Total Words Count in a String: $totalWords");
+  int number = 1234;
+  int sumOfDigits = sumDigits(number);
+  print("Sum of Digits in a Number: $sumOfDigits");
 }
