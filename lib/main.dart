@@ -1,7 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_09/solution.dart';
+import 'package:dart_problem_solving/challenges/day_10/solution.dart';
 
 void main() {
-  int number = 1234;
-  int sumOfDigits = sumDigits(number);
-  print("Sum of Digits in a Number: $sumOfDigits");
+  String input = 'level';
+  bool result = palindrome(input);
+  print("If a String is a Palindrome: $result");
 }
