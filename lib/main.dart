@@ -1,7 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_10/solution.dart';
+import 'package:dart_problem_solving/challenges/day_11/solution.dart';
 
 void main() {
-  String input = 'level';
-  bool result = palindrome(input);
-  print("If a String is a Palindrome: $result");
+  List<int> numbers = [50, 5, 20, 8];
+  int result = secondLargestNumber(numbers);
+  print("Second Largest Number in the List: $result");
 }
