@@ -1,7 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_12/solution.dart';
+import 'package:dart_problem_solving/challenges/day_13/solution.dart';
 
 void main() {
-  String input = 'Flutter Is Fun';
-  int result = countUpperCase(input);
-  print("Total Uppercase Letters in a String: $result");
+  List<int> input = [3, -1, 0, -7, 5, -2];
+  List<int> result = removeNegativeNumbers(input);
+  print("Remove Negative Numbers from a List: $result");
 }
