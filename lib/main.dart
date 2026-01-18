@@ -1,7 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_17/solution.dart';
+import 'package:dart_problem_solving/challenges/day_18/solution.dart';
 
 void main() {
-  String input = "Flutter is really fun";
-  List<String> result = longerWords(input);
-  print("Words Longer Than 3 Characters: $result");
+  List<int> input = [2, 4, 6, 8];
+  int result = greaterThanAverage(input);
+  print("Count Numbers Greater Than the Average: $result");
 }
