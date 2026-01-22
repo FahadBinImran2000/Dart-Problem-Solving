@@ -1,7 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_21/solution.dart';
+import 'package:dart_problem_solving/challenges/day_22/solution.dart';
 
 void main() {
-  String input = "aabbcdd";
-  String result = nonRepeatingCharacter(input);
-  print("Find the First Non-Repeating Character: $result");
+  String input = "hello";
+  Map result = countCharacterFrequency(input);
+  print("Count Character Frequency in a String: $result");
 }
