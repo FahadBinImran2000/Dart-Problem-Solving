@@ -1,7 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_22/solution.dart';
+import 'package:dart_problem_solving/challenges/day_23/solution.dart';
 
 void main() {
-  String input = "hello";
-  Map result = countCharacterFrequency(input);
-  print("Count Character Frequency in a String: $result");
+  String input = "dart is fun";
+  String result = longestWord(input);
+  print("Find the Longest Word in a Sentence: $result");
 }
