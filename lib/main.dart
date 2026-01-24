@@ -1,7 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_23/solution.dart';
+import 'package:dart_problem_solving/challenges/day_24/solution.dart';
 
 void main() {
-  String input = "dart is fun";
-  String result = longestWord(input);
-  print("Find the Longest Word in a Sentence: $result");
+  List<int> input = [4, 2, 7, 1, 3];
+  List<int> result = sortList(input);
+  print("Sorted List of Integers: $result");
 }
