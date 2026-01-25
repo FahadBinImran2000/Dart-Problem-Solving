@@ -1,7 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_24/solution.dart';
+import 'package:dart_problem_solving/challenges/day_25/solution.dart';
 
 void main() {
-  List<int> input = [4, 2, 7, 1, 3];
-  List<int> result = sortList(input);
-  print("Sorted List of Integers: $result");
+  List<int> input = [1, 2, 2, 3, 4, 3, 5];
+  List<int> result = removeDuplicate(input);
+  print("Remove Duplicate Elements from a List: $result");
 }
