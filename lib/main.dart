@@ -1,7 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_25/solution.dart';
+import 'package:dart_problem_solving/challenges/day_26/solution.dart';
 
 void main() {
-  List<int> input = [1, 2, 2, 3, 4, 3, 5];
-  List<int> result = removeDuplicate(input);
-  print("Remove Duplicate Elements from a List: $result");
+  List<int> input = [1, 2, 4, 5];
+  int result = missingNumber(input);
+  print("Find the Missing Number in a List: $result");
 }
