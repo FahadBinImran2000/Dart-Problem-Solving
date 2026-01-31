@@ -1,7 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_30/solution.dart';
+import 'package:dart_problem_solving/challenges/day_31/solution.dart';
 
 void main() {
-  int number = 5;
-  int result = factorial(number);
-  print("Factorial of a Number: $result");
+  List<int> number = [3, 4, -1, 1];
+  int result = firstMissingPositiveNumber(number);
+  print("Find the First Missing Positive Number: $result");
 }
