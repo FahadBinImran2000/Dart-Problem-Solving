@@ -1,8 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_37/solution.dart';
+import 'package:dart_problem_solving/challenges/day_38/solution.dart';
 
 void main() {
-  String input1 = "abcd";
-  String input2 = "cdab";
-  bool result = areRotations(input1, input2);
-  print("Two Strings Are Rotations of Each Other: $result");
+  List<int> numbers = [2, 1, 3, 5, 3, 2];
+  int result = firstDuplicate(numbers);
+  print("First Duplicate Element in a List: $result");
 }
