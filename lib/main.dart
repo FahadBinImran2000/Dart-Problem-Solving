@@ -1,7 +1,8 @@
-import 'package:dart_problem_solving/challenges/day_38/solution.dart';
+import 'package:dart_problem_solving/challenges/day_39/solution.dart';
 
 void main() {
-  List<int> numbers = [2, 1, 3, 5, 3, 2];
-  int result = firstDuplicate(numbers);
-  print("First Duplicate Element in a List: $result");
+  String input1 = "egg";
+  String input2 = "add";
+  bool result = areIsomorphic(input1, input2);
+  print("Two Strings Are Isomorphic: $result");
 }
