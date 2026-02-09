@@ -1,8 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_39/solution.dart';
+import 'package:dart_problem_solving/challenges/day_40/solution.dart';
 
 void main() {
-  String input1 = "egg";
-  String input2 = "add";
-  bool result = areIsomorphic(input1, input2);
-  print("Two Strings Are Isomorphic: $result");
+  List<int> numbers = [100, 4, 200, 1, 3, 2];
+  int result = longestConsecutive(numbers);
+  print("The Longest Consecutive Sequence in a List: $result");
 }
