@@ -1,7 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_41/solution.dart';
+import 'package:dart_problem_solving/challenges/day_42/solution.dart';
 
 void main() {
-  List<String> words = ["flower", "flow", "flight"];
-  String result = longestCommonPrefix(words);
-  print("The Longest Common Prefix: $result");
+  String input = "()";
+  bool result = isValidParentheses(input);
+  print("Is Valid Parentheses: $result");
 }
