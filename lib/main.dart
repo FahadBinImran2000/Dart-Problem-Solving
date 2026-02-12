@@ -1,7 +1,7 @@
-import 'package:dart_problem_solving/challenges/day_42/solution.dart';
+import 'package:dart_problem_solving/challenges/day_43/solution.dart';
 
 void main() {
-  String input = "()";
-  bool result = isValidParentheses(input);
-  print("Is Valid Parentheses: $result");
+  String input = "abcabcbb";
+  int result = longestNonRepeatingSubstring(input);
+  print("Longest Substring Without Repeating Characters: $result");
 }
