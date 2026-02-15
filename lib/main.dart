@@ -1,8 +1,8 @@
-import 'package:dart_problem_solving/challenges/day_44/solution.dart';
+import 'package:dart_problem_solving/challenges/day_45/solution.dart';
 
 void main() {
-  List<int> input1 = [1, 3, 5];
-  List<int> input2 = [2, 4, 6];
-  List<int> result = mergeSortedLists(input1, input2);
-  print("Merge Two Sorted Lists: $result");
+  List<int> input = [1, 5, 3, 4, 2];
+  int k = 2;
+  List<List<int>> result = findPairsWithDifference(input, k);
+  print("Find All Pairs with Given Difference: $result");
 }
