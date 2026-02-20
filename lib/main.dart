@@ -1,8 +1,9 @@
-import 'package:dart_problem_solving/challenges/day_46/solution.dart';
+import 'package:dart_problem_solving/challenges/day_47/solution.dart';
 
 void main() {
-  List<int> input = [1, 2, 3, 4, 5];
-  int k = 2;
-  List<int> result = rotateArrayRight(input, k);
-  print("Rotate Array to the Right: $result");
+  List<String> items1 = ["apple", "banana", "cherry"];
+  List<int> prices1 = [50, 20, 30];
+  List<String> items2 = ["banana", "cherry", "apple"];
+  List<int> prices2 = [25, 30, 50];
+  correctPrices(items1, prices1, items2, prices2);
 }
